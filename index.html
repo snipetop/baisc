@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Wife ❤️</title>
+    <meta name="description" content="A little website made with love for my amazing wife." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-mark">❤</span>
+          <span class="brand-name">For My Wife</span>
+        </div>
+        <nav class="nav">
+          <a href="#hero">Home</a>
+          <a href="#reasons">Reasons</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#love-letter">Letter</a>
+          <a href="#memory-jar">Memory Jar</a>
+          <a href="#countdown">Countdown</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 class="script">To My Favorite Person</h1>
+            <p class="subtitle">You are my today and all of my tomorrows.</p>
+            <div class="cta-row">
+              <a class="btn primary" href="#reasons">Why I love you</a>
+              <button id="surpriseBtn" class="btn ghost">Surprise me ✨</button>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img
+              src="https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif"
+              alt="Floating hearts"
+              class="hero-gif"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <canvas id="heartsCanvas" aria-hidden="true"></canvas>
+      </section>
+
+      <!-- REASONS -->
+      <section id="reasons" class="section reasons">
+        <div class="container">
+          <h2 class="section-title">A Few Reasons I Love You</h2>
+          <div class="grid reasons-grid">
+            <article class="card">
+              <div class="card-gif">
+                <img src="https://media.giphy.com/media/l0HlQ7LRalF5Wf7Nu/giphy.gif" alt="Laughing hearts" loading="lazy" />
+              </div>
+              <h3>Your Laugh</h3>
+              <p>It turns even the dullest day into sunshine.</p>
+            </article>
+            <article class="card">
+              <div class="card-gif">
+                <img src="https://media.giphy.com/media/26tP41fh76l5csgYo/giphy.gif" alt="Hug gif" loading="lazy" />
+              </div>
+              <h3>Your Warmth</h3>
+              <p>Your hugs feel like home, every single time.</p>
+            </article>
+            <article class="card">
+              <div class="card-gif">
+                <img src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" alt="Sparkles" loading="lazy" />
+              </div>
+              <h3>Your Spark</h3>
+              <p>You light up every room and every heart you meet.</p>
+            </article>
+            <article class="card">
+              <div class="card-gif">
+                <img src="https://media.giphy.com/media/26Ff7G2vNmBGG99xS/giphy.gif" alt="Dancing hearts" loading="lazy" />
+              </div>
+              <h3>Our Dance</h3>
+              <p>With you, even ordinary moments feel magical.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="section gallery">
+        <div class="container">
+          <h2 class="section-title">Little Moments, Big Love</h2>
+          <div class="masonry">
+            <img class="masonry-item" src="https://media.giphy.com/media/xT0xezQGU5xCDJuCPe/giphy.gif" alt="Heart balloons" loading="lazy" />
+            <img class="masonry-item" src="https://media.giphy.com/media/3ohzdIY5Z2n8r4p9Qk/giphy.gif" alt="Cute couple" loading="lazy" />
+            <img class="masonry-item" src="https://media.giphy.com/media/l0HlQ7LRalF5Wf7Nu/giphy.gif" alt="Giggles" loading="lazy" />
+            <img class="masonry-item" src="https://media.giphy.com/media/26tP41fh76l5csgYo/giphy.gif" alt="Hugs" loading="lazy" />
+            <img class="masonry-item" src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" alt="Sparkles" loading="lazy" />
+            <img class="masonry-item" src="https://media.giphy.com/media/26Ff7G2vNmBGG99xS/giphy.gif" alt="Dance" loading="lazy" />
+          </div>
+        </div>
+        <div id="lightbox" class="lightbox" aria-hidden="true">
+          <button id="lightboxClose" class="lightbox-close" aria-label="Close">×</button>
+          <img id="lightboxImg" alt="Preview" />
+        </div>
+      </section>
+
+      <!-- TIMELINE -->
+      <section id="timeline" class="section timeline">
+        <div class="container">
+          <h2 class="section-title">Our Story</h2>
+          <ol class="timeline-list">
+            <li>
+              <span class="date">The day we met</span>
+              <p>I found my forever person.</p>
+            </li>
+            <li>
+              <span class="date">First adventure</span>
+              <p>We laughed, we explored, and we promised more.</p>
+            </li>
+            <li>
+              <span class="date">Our cozy nights</span>
+              <p>Netflix, snacks, and your hand in mine.</p>
+            </li>
+            <li>
+              <span class="date">Today</span>
+              <p>Still falling for you, again and again.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- LOVE LETTER -->
+      <section id="love-letter" class="section letter">
+        <div class="container">
+          <h2 class="section-title">A Little Letter</h2>
+          <article class="letter-card">
+            <p>
+              My love, words will never be enough to describe how grateful I am for you. You make
+              life softer, brighter, and endlessly meaningful. Thank you for being my best friend,
+              my safe place, and my favorite story. I love you — today, tomorrow, and always.
+            </p>
+            <p class="signature script">Forever yours ❤</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- MEMORY JAR -->
+      <section id="memory-jar" class="section memory-jar">
+        <div class="container">
+          <h2 class="section-title">Memory Jar</h2>
+          <form id="memoryForm" class="memory-form" autocomplete="off">
+            <input id="memoryInput" type="text" placeholder="Add a sweet memory..." aria-label="New memory" required />
+            <button class="btn primary" type="submit">Add</button>
+            <button id="clearJarBtn" class="btn ghost" type="button">Clear all</button>
+          </form>
+          <ul id="memoryList" class="memory-list" aria-live="polite"></ul>
+        </div>
+      </section>
+
+      <!-- COUNTDOWN -->
+      <section id="countdown" class="section countdown" data-target-date="2026-02-14T00:00:00">
+        <div class="container">
+          <h2 class="section-title">Countdown to Our Special Day</h2>
+          <div class="countdown-grid" role="timer" aria-live="polite">
+            <div class="countdown-box"><span id="dd">0</span><small>Days</small></div>
+            <div class="countdown-box"><span id="hh">0</span><small>Hours</small></div>
+            <div class="countdown-box"><span id="mm">0</span><small>Minutes</small></div>
+            <div class="countdown-box"><span id="ss">0</span><small>Seconds</small></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="compliment" id="compliment">You are my favorite notification.</div>
+        <p>Made with ❤ just for you.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+  </html>
+
